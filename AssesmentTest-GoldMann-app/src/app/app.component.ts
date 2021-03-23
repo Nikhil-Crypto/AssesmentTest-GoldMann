@@ -17,8 +17,8 @@ export class AppComponent implements OnInit {
     // 2nd Question
     this.fizzBuzz();
     // 3rd Question
-    console.log("hello" || "world");
-    console.log("foo" && "bar");
+    console.log("hello" || "world"); // returns "hello": as the first operand is true.
+    console.log("foo" && "bar"); // evaluates both the operands and they both are true so returns "bar" as "bar" is second operand.
     // 4th Question
     (function () {
       var comapnyName = "GoldMan Sachs";
